@@ -1,41 +1,61 @@
 source 'https://rubygems.org'
 
-gem 'rails', '~> 3.2.1'
 
-# For gems only used in development
-group :development, :test do
-  gem 'sqlite3'
-end
+# Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
+gem 'rails', '4.1.6'
+# Use postgresql as the database for Active Record
+gem 'pg'
+# Use SCSS for stylesheets
+gem 'sass-rails', '~> 4.0.3'
+# Use Uglifier as compressor for JavaScript assets
+gem 'uglifier', '>= 1.3.0'
+# Use CoffeeScript for .js.coffee assets and views
+gem 'coffee-rails', '~> 4.0.0'
+# See https://github.com/sstephenson/execjs#readme for more supported runtimes
+# gem 'therubyracer',  platforms: :ruby
 
-group :production do
-  gem 'pg'
-end
-
-group :assets do
-  gem 'sass-rails',   '~> 3.2.3'
-  gem 'coffee-rails', '~> 3.2.1'
-  gem 'uglifier', '>= 1.0.3'
-
-  gem 'zurb-foundation', '~> 4.0.0'
-end
-
+# Use jquery as the JavaScript library
 gem 'jquery-rails'
+# Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
+gem 'turbolinks'
+# Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
+gem 'jbuilder', '~> 2.0'
+# bundle exec rake doc:rails generates the API under doc/api.
+gem 'sdoc', '~> 0.4.0',          group: :doc
 
-group :test, :development do
-  gem "rspec-rails", "~> 2.0"
-end
+# Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
+gem 'spring',        group: :development
 
-group :test do
-  gem 'capybara'
-end
+gem 'zurb-foundation', '~> 4.0.0'
 
-gem 'activeadmin'
-gem "meta_search", '>= 1.1.0.pre'
+# Use ActiveModel has_secure_password
+# gem 'bcrypt', '~> 3.1.7'
 
-gem 'redcarpet'
-gem 'rouge'
-gem 'nokogiri'
+# Use unicorn as the app server
+# gem 'unicorn'
+
+# Use Capistrano for deployment
+# gem 'capistrano-rails', group: :development
+
+# Use debugger
+# gem 'debugger', group: [:development, :test]
+
+gem 'bootstrap-sass', '~> 3.2.0'
+gem 'autoprefixer-rails'
 
 gem 'guard-rails', group: :development
 gem 'rails_12factor', group: :production
 gem 'rails_serve_static_assets', group: [:production]
+
+gem 'polyamorous',      github: 'activerecord-hackery/polyamorous'  # Require for ActiveAdmin to work with Rails 4.1
+gem 'ransack',          github: 'activerecord-hackery/ransack'      # Require for ActiveAdmin to work with Rails 4.1
+gem 'formtastic'
+gem 'devise'
+
+gem 'activeadmin',      github: 'gregbell/active_admin'             # ActiveAdmin backend framework for Rails administration interface
+
+gem 'sprockets', '2.11.0'
+
+gem 'redcarpet'
+gem 'rouge'
+gem 'ionicons-rails'
