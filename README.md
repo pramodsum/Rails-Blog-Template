@@ -55,7 +55,7 @@ rails s
 It watches for any changes in your  rails app and automatically restarts the
 server. Once installed, instead of `node app.js` use `guard`. It will
 save you a lot of time in the long run, because you won't need to manually
-restart the server each time you make a small change in code. 
+restart the server each time you make a small change in code.
 
 
 Project Structure
@@ -174,7 +174,7 @@ Contributing
 If something is unclear, confusing, or needs to be refactored, please let me know.
 Pull requests are always welcome, but due to the opinionated nature of this
 project, I cannot accept every pull request. Please open an issue before
-submitting a pull request. 
+submitting a pull request.
 
 License
 -------
