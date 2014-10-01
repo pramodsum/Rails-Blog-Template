@@ -1,7 +1,7 @@
 Ruby On Rails Blog Template
 =======================
 
-**Live Demo**: http://railsblogtemplate.herokuapp.com 
+[**Live Demo**](http://railsblogtemplate.herokuapp.com)
 
 A boilerplate for **Ruby on Rails** Blogs.
 
@@ -96,31 +96,31 @@ List of Packages
 
 | Package                         | Description   |
 | ------------------------------- |:-------------:|
-| rails                           | Utility library that provides asynchronous control flow. |
-| pg                   | Library for hashing and salting user passwords. |
-| sass-rails                         | Scrape web pages using jQuery-style syntax.  |
-| uglifier                       | Clockwork SMS API library. |
-| coffee-rails                  | Compiles LESS stylesheets, concatenates & minifies JavaScript. |
-| jquery-rails                   | MongoDB session store for Express. |
-| turbolinks                            | Dependency for connect-assets library to minify CSS. |
-| jbuilder                         | Node.js web framework. |
-| sdoc                     | Express 4.0 middleware. |
-| spring                   | Express 4.0 middleware. |
-| zurb-foundation                 | Express 4.0 middleware. |
-| bootstrap-sass                          | Express 4.0 middleware. |
-| autoprefixer-rails                     | Express 4.0 middleware. |
-| guard-rails                    | Express 4.0 middleware. |
-| rails_12factor                 | Express 4.0 middleware. |
-| rails_serve_static_assets                   | Provides flash messages for Express. |
-| polyamorous               | Easy form validation for Express. |
-| ransack                         | Facebook Graph API library. |
-| formtastic                      | GitHub API library. |
-| devise                            | Template engine for Express. |
-| activeadmin                          | Last.fm API library. |
-| sprockets                  | Instagram API library. |
-| redcarpet                            | LESS compiler. Used implicitly by connect-assets. |
-| rouge                           | CSRF middleware.        |
-| ionicons-rails                        | MongoDB ODM. |
+| rails                           | Full-stack web framework optimized for programmer happiness and sustainable productivity |
+| pg                   | Ruby interface to Postgresql |
+| sass-rails                         | Sass adapter for the Rails asset pipeline  |
+| uglifier                       | Minifies JavaScript files by wrapping UglifyJS to be accessible in Ruby |
+| coffee-rails                  | CoffeeScript adapter for the Rails asset pipeline |
+| jquery-rails                   | Provides jQuery and the jQuery-ujs driver for your Rails 3+ application |
+| turbolinks                            | Makes following links in your web application faster (use with Rails Asset Pipeline) |
+| jbuilder                         | Create JSON structures via a Builder-style DSL |
+| sdoc                     | rdoc generator html with javascript search index |
+| spring                   | Rails application preloader |
+| zurb-foundation                 | ZURB Foundation on Sass/Compass |
+| bootstrap-sass                          | Twitter's Bootstrap, converted to Sass and ready to drop into Rails or Compass |
+| autoprefixer-rails                     | Parse CSS and add vendor prefixes to CSS rules using values from the Can I Use website |
+| guard-rails                    | Restart Rails when things change in your app |
+| rails_12factor                 | Run Rails the 12factor way |
+| rails_serve_static_assets                   | Force Rails to serve static assets |
+| polyamorous               | Extends ActiveRecord's associations to support polymorphic belongs_to associations |
+| ransack                         | Successor to the MetaSearch gem |
+| formtastic                      | Form builder plugin/gem with semantically rich and accessible markup |
+| devise                            | Flexible authentication solution for Rails with Warden |
+| activeadmin                          | The administration framework for Ruby on Rails |
+| sprockets                  | Rack-based asset packaging system that concatenates and serves JavaScript, CoffeeScript, CSS, LESS, Sass, and SCSS |
+| redcarpet                            | A fast, safe and extensible Markdown to (X)HTML parser |
+| rouge                           | Simple, easy-to-extend drop-in replacement for pygments.        |
+| ionicons-rails                        | Ionicons for Ruby on Rails |
 
 **The following tools and resource recommendations were taken from the [Hackathon Starter Project](https://github.com/sahat/hackathon-starter/blob/master/README.md)**
 
@@ -179,18 +179,24 @@ submitting a pull request.
 License
 -------
 
-The Apache License
+The MIT License (MIT)
 
-Copyright 2014 Sumedha Pramod
+Copyright (c) 2014 Sumedha Pramod
 
-Licensed under the Apache License, Version 2.0 (the "License");
-you may not use this file except in compliance with the License.
-You may obtain a copy of the License at
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-    http://www.apache.org/licenses/LICENSE-2.0
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
 
-Unless required by applicable law or agreed to in writing, software
-distributed under the License is distributed on an "AS IS" BASIS,
-WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-See the License for the specific language governing permissions and
-limitations under the License.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
