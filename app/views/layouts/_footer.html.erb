@@ -1,10 +1,27 @@
 <div class="footer">
-  <p>
-    Made with 
-    <span style="color: red;">&hearts;</span>
-    <span>by</span>
-    <a href="http://sumninjacode.io"> Sumedha Pramod</a>
-    <span>&#124;</span>
-    <a href='mailto:sumedha.pramod@gmail.com'>Issues</a>
-  </p>
+  <div class="row">
+    <div class="col-sm-4">
+      <div class="fc-header-title"><h2>Recent Posts</h2></div>
+      <% @recent_posts = Post.order("created_at DESC").limit(5) %>
+      <% @recent_posts.each do |post| %>
+        <li><%= link_to_unless_current post.title, post %></li>
+      <% end %>
+      <br>
+    </div>
+    <div class="col-sm-4">
+    </div>
+    <div class="col-sm-4">
+      <div id="calendar"></div>
+    </div>
+  </div>
+  <div class="row text-center">
+    <p class="copyright">
+      Made with
+      <span class="ion-heart"></span>
+      <span>by</span>
+      <a href="http://sumninjacode.io"> Sumedha Pramod</a>
+      <span>&#124;</span>
+      <a href='https://github.com/pramodsum/ShesGotAWill/issues'>Issues</a>
+    </p>
+  </div>
 </div>

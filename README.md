@@ -167,7 +167,12 @@ Recommended Client-side Libraries
 
 Changelog
 ---------
-### 0.0.1 (October 1, 2014)
+### 0.2 (October 28, 2014)
+Generalizing style template for blog
+- Added post calendar to footer
+- Added top 5 recent posts to footer
+
+### 0.1 (October 1, 2014)
 Initial upload of project!
 
 Contributing
