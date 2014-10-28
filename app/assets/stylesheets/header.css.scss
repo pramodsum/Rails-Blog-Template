@@ -9,5 +9,6 @@
 }
 
 .blog-title {
+  @extend strong;
   // font-size: 0em;
 }

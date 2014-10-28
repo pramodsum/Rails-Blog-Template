@@ -9,6 +9,12 @@ body {
   background: white
 }
 
+a:focus, a:hover {
+  text-decoration: none;
+  color: black;
+  text-shadow: 1px 1px #428bca;
+}
+
 img {
   max-width: 100%;
 }
