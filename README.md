@@ -39,6 +39,8 @@ Getting Started
 
 The easiest way to get started is to clone the repository:
 
+**You must also have a postgres server running in the background! If you are using a mac, you just need to start the postgres app. Otherwise you can also run the --- command from terminal**
+
 ```bash
 # Get the latest snapshot
 git clone --depth=1 https://github.com/pramodsum/blog_template.git myproject
