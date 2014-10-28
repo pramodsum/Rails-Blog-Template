@@ -3,9 +3,9 @@
     <a href="./">
       <h1 class="blog-title"><center><%= content_for?(:title) ? yield(:title) : "Blog Template" %></center></h1>
       <br>
-      <%=image_tag("422.png", width: "995", id:"masthead-img", class:"img-responsive")%>
+      <center><%=image_tag("placeholder.jpeg", height: "500",class:"img-responsive img-rounded")%></center>
+      <br>
     </a>
     <%= render :partial => 'layouts/navbar' %>
   </div>
-
 </header>

@@ -4,10 +4,6 @@
   </p>
   <p class="date">
     <span class="ion-calendar"></span>
-<!--      t.strftime('%A'), => Thursday
-t.strftime('%B'), => January
-t.strftime('%C'), => 20
--->
     <%= @post.created_at.strftime('%a') %>
     <%= @post.created_at.strftime('%B') %>
     <%= @post.created_at.strftime('%C') %>,

@@ -5,12 +5,17 @@ class PostsController < ApplicationController
   # GET /posts
   # GET /posts.json
   def index
-    @posts = Post.order("created_at").all
+    @posts = Post.order("created_at desc").all
+  end
+
+  def archive 
   end
 
   # GET /posts/1
   # GET /posts/1.json
   def show
+    @post = Post.find(params[:id])
+    # @comments = @posts.comments.order("created_at DESC").all
   end
 
   private

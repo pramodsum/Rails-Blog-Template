@@ -1,8 +1,9 @@
-<div class="panel panel-default">
+<div class="comment panel panel-default">
   <div class="panel-body">
     <%= comment.body %>
   </div>
   <div class="panel-footer">
-    <small>Posted <%= time_ago_in_words(comment.created_at) %> ago</small>
+    <small class="col-sm-6 text-left"><%= comment.author %></small>
+    <small class="col-sm-6 text-right">Posted <%= time_ago_in_words(comment.created_at) %> ago</small>
   </div>
 </div>

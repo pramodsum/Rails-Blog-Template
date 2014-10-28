@@ -34,8 +34,33 @@ hgroup {
   display: block
 }
 
+hr {
+  border-top: 1px solid #aaa;
+}
+
 .dropshadow-topbottom {
   display: none
+}
+
+.btn {
+  background: #92b3d4;
+  color: white;
+}
+
+.btn:hover, .btn:focus {
+  color: #92b3d4;
+  background: black;
+}
+
+.content-container {
+  background: #eee;
+  border-radius: 5px;
+  padding: 2em !important;
+}
+
+.about-text h1 {
+  text-align: center;
+  margin-top: 0;
 }
 
 @import 'header';
