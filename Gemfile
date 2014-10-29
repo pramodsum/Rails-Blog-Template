@@ -59,3 +59,5 @@ gem 'sprockets', '2.11.0'
 gem 'redcarpet'
 gem 'rouge'
 gem 'ionicons-rails'
+
+gem 'fullcalendar-rails'
